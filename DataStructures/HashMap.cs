@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace DataStructures;
 
-public class HashMap<TKey, TValue>
+public class HashMap<TKey, TValue> where TKey : notnull
 {
-    private readonly Dictionary<TKey, TValue> _dict = new();
+    private readonly Dictionary<TKey, TValue> _dict = [];
 
     public int Count => _dict.Count;
 
