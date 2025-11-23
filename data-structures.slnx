@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DataStructures/DataStructures.csproj" />
+  <Project Path="Tests/Tests.csproj" />
+</Solution>
